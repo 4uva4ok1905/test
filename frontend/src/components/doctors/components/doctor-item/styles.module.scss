@@ -1,0 +1,41 @@
+.infoItem{
+  display: flex;
+
+  .icon{
+    width: 22px;
+    height: 22px;
+  }
+
+  .text{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 22px;
+    text-decoration: none;
+    color: var(--color-gray);
+  }
+}
+.infoItem:not(:first-child){
+  margin-top: 12px;
+}
+
+.textCapitalize {
+  text-transform: capitalize;
+}
+
+.location {
+  background-image: url('../../../../assets/images/location.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.phone {
+  background-image: url('../../../../assets/images/phone.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stethoscope {
+  background-image: url('../../../../assets/images/icons/stethoscope.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}

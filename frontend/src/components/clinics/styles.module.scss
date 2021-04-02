@@ -1,0 +1,26 @@
+.clinicsContainer{
+  flex-grow: 1;
+  background-color: #E5E5E5;
+  padding: 57px;
+}
+
+.clinicsPageWrapper{
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+}
+
+.filterWrapper{
+  position: sticky;
+  width: 334px;
+  height: auto;
+  background-color:#F2F2F5;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.clinicsWrapper{
+  flex-grow: 1;
+  display: flex;
+  width: calc(100% - 334px);
+}

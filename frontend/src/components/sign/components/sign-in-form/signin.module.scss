@@ -1,0 +1,46 @@
+.formSignIn {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  .title {
+    margin-top: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: black;
+    align-self: flex-start;
+  }
+
+  .inputBlock,
+  .textBlock {
+    margin-bottom: 15px;
+    width: 100%;
+    color: #000;
+  }
+
+  .textBlock {
+    color: var(--color-gray);
+
+    & > a {
+      text-transform: capitalize;
+      text-decoration: none;
+      color: var(--color-primary-light);
+
+      &:hover {
+        color: var(--color-primary-dark);
+      }
+    }
+  }
+
+  .submitBtn {
+    margin-top: 15px;
+    width: 100%;
+  }
+}
