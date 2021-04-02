@@ -4,6 +4,12 @@ import { url, dialect } from '../../../config/db.config';
 const sequelize = new Sequelize(url ?? '', {
   dialect: dialect as Dialect,
   logging: false,
+  dialectOptions: {
+    ssl: {
+      require: true,
+      rejectUnauthorized: false
+    }
+  },
 });
 
 export { sequelize };
